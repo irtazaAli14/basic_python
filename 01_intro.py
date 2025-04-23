@@ -1,0 +1,1 @@
+print('python is a vertasyle language , which is use in multiple domains like Data Science , Data Engineering , Automation , AI , ML and Web Developing')
