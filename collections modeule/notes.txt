@@ -1,0 +1,51 @@
+What is the collections module in Python?
+The collections module is a built-in Python library that provides extra powerful data structures.
+
+It gives you special containers that are alternatives to the general list, tuple, dict, and set.
+
+These containers are optimized for better performance, readability, and special tasks.
+
+✅ You don't need to install it — just import it:
+
+python
+Copy
+Edit
+import collections
+
+
+
+2. Who built the collections module?
+It was developed by the Python Software Foundation (PSF).
+
+More specifically, it was introduced by Raymond Hettinger, a core Python developer.
+
+It was officially added in Python 2.4 (around 2004).
+
+3. How many containers come with the collections module?
+The main 5 containers you need to know are:
+
+
+Container	Description
+namedtuple()	Tuple with named fields (like an object)
+deque	Double-ended queue (faster appends and pops)
+Counter	Counts elements easily (like a super dictionary)
+OrderedDict	Like a dictionary, but remembers the order of items
+defaultdict	Dictionary with a default value if key is missing
+⭐️ In Python 3.7+, normal dict also remembers order — but OrderedDict still has extra features.
+
+4. What are the workings of these containers?
+
+Container	How it works
+namedtuple	Create tuples where you can access fields by name (like a small class).
+deque	A fast list you can add/remove from both sides (left or right).
+Counter	Count how many times each item appears in a list or string.
+OrderedDict	A dictionary that keeps items in the order you added them.
+defaultdict	A dictionary that gives a default value instead of an error if a key doesn’t exist.
+5. Where are the uses of containers?
+
+Container	Common Uses
+namedtuple	When you want a lightweight object without writing a full class. Example: points, coordinates, records.
+deque	Queues and Stacks (First-In-First-Out or Last-In-First-Out structures), like for task scheduling.
+Counter	Counting items (votes, elements in a list, characters in a string, etc).
+OrderedDict	When order of insertion matters — like building an ordered list of settings or steps.
+defaultdict	When you want to group values automatically (e.g., grouping students by marks without checking keys).
