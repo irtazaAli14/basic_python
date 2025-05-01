@@ -59,4 +59,12 @@ def reverse_method():
     cities.reverse()
 
 reverse_method()
+
+def extent_method(values):
+    # values <--- values should be an array --->
+    cities.extend(values)
+
+extent_method(["Aptabad" , "Naran Kaghan"])
+
 print(cities)
+
