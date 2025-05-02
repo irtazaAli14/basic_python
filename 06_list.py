@@ -68,3 +68,24 @@ extent_method(["Aptabad" , "Naran Kaghan"])
 
 print(cities)
 
+
+
+
+
+
+
+
+
+# pr_languages = ['python' , 'c++' ., '']
+
+
+
+
+
+
+
+
+
+
+
+
